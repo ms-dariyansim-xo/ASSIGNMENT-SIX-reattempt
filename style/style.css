@@ -4,12 +4,12 @@
 
 #left-container {
     display: grid;
-    grid-template-columns: 50%;
-    padding: 10px;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
     background-color: white;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: -5px 5px 5px rgba(1, 1, 1, .4);
-
 }
 
 #right-container {
@@ -23,8 +23,9 @@
 }
 
 .left-picture {
-    width: 70%;
+    width: 50%;
     border: 5px solid black;
+    box-shadow: -5px 5px 10px black;
 }
 
 .right-picture {
